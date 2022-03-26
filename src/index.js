@@ -1,8 +1,9 @@
 import app from './app.js';
-const port = process.env.PORT;
+import config from './config/config.js';
 let server;
 
 async function run() {
+    const port = config.port;
     try {
         server = app.listen(port, () => {
             console.log(`Example app listening on port ${port}`);
