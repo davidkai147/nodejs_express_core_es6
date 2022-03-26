@@ -2,7 +2,7 @@
   "name": "nodejs_express_core_es6",
   "version": "1.0.0",
   "description": "A starter of ExpressJS API as ES6 module",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "pm2 start ecosystem.config.json --no-daemon",
